@@ -19,12 +19,24 @@
 //const balance = 1000 
 //if(balance > 500)console.log("test");
 
-if (balance <500 ) {
+//if (balance <500 ) {
   //  console.log ("less than 50");
-} 
-else if(balance <700 ) {
+//} 
+//else if(balance <700 ) {
    // console.log ("less than 7000");
-} 
- else if (balance <1000 ) {
+//} 
+ //else if (balance <1000 ) {
    // console.log ("less than 1000")
-} 
+//} 
+
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false 
+const loggedInFomEmail = true
+
+//if (userLoggedIn && debitCard && 2==2){
+  //  console.log("Allow to buy courses")
+//}
+if  (loggedInFomEmail || loggedInFromGoogle ){
+    console.log ("User logged in")
+}
